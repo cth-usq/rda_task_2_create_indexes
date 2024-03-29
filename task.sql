@@ -1,2 +1,5 @@
-# Write your SQL code for the database creation here. Good luck! 
-USE ShopDB; 
+USE ShopDB;
+
+CREATE INDEX Products ON Products (Name);
+
+CREATE INDEX Customers ON Customers (Email);
